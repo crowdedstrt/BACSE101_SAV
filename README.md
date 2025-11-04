@@ -76,18 +76,20 @@ Edit these in the code if your MySQL credentials differ.
 - python portal.py
 
 ## Database Schema
-Table: admins
-Field	Type	Description
-username	VARCHAR(50)	Admin username
-password	VARCHAR(100)	Admin password
+*Table: admins*
+| Field	| Type	| Description |
+| --- | --- | --- |
+| username	| VARCHAR(50)	| Admin username |
+| password	| VARCHAR(100) |	Admin password |
 
-Table: students
-Field	Type	Description
-id	VARCHAR(20)	Student ID
-name	VARCHAR(100)	Student Name
-dept	VARCHAR(20)	Department
-marks	VARCHAR(100)	Comma-separated marks (e.g., 85,90,78)
-password	VARCHAR(100)	Student password
+*Table: students*
+| Field	| Type	| Description |
+| --- | --- | --- |
+| id | VARCHAR(20)	| Student ID |
+| name |	VARCHAR(100) | Student Name |
+| dept | VARCHAR(20) | Department |
+| marks |	VARCHAR(100) | Comma-separated marks |
+| password | VARCHAR(100) | Student password |
 
 ## Key Concepts Demonstrated
 Data Types (Numeric, String, Boolean)
